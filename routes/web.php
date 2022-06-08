@@ -29,3 +29,4 @@ Route::middleware([
 });
 
 Route::get('/products', [PagesController::class, 'showProductsPage']);
+Route::get('/faqs', [PagesController::class, 'showFaqs']);
